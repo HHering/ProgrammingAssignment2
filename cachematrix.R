@@ -47,3 +47,10 @@ cacheSolve<-function(x, ...){
         x$setinvert(m)
         m
 }
+
+##pss: u can try the function like this:
+##      m <- matrix(c(-1, -2, 1, 1), 2,2)
+##      x <- makeCacheMatrix(m)
+##      cacheSolve(x)
+##      cacheSolve(x)
+
